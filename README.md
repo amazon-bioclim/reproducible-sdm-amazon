@@ -1,6 +1,8 @@
 # reproducible-sdm-amazon
 Reproducible Experiment of Species Distribution Modeling in the Amazon Basin
 
+Renato Okabayashi Miyaji; Felipe Valencia de Almeida; Pedro Luiz Pizzigatti Corrêa; Luciana Varanda Rizzo
+
 The Amazon is one of the largest Rainforests in the world. It hosts more than 20,000 different species, representing a relevant portion of the world's biodiversity. Manaus, a city located in the central region of the Amazon Basin, has been growing rapidly. Nevertheless, only a few studies have been conducted with the objective of understanding the changes due to anthropic action. In this context, here we present a Virtual Research Environment (VRE) focused on bioclimatic analysis that allows users to perform Species Distribution Modeling (SDM) experiments using Machine Learning algorithms, aiming to determine the influence of pollutants and the anthropic action on the local biodiversity.
 
 The VRE is a script and a Jupyter Notebook written in Python. Its workflow is based on three major steps. Initially, a dataset from the Atmospheric Radiation Measurement (ARM), which contains meteorological and aerosol data, is imported. Then, a linear spatial interpolation is performed, in order to generate a grid with high resolution of the data over the region of interest. A dataset from the Global Biodiversity Information Facility (GBIF), which contains data about global biodiversity, is also imported, and a join operation, based on the keys of latitude, longitude, and date, is performed to obtain a unique dataset of bioclimatic data. 
